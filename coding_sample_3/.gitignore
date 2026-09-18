@@ -1,0 +1,10 @@
+data.csv
+data_codebook.csv
+paper_appendix.pdf
+.env
+.env.*
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
