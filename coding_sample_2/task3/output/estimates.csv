@@ -1,0 +1,5 @@
+outcome,model,coefficient,standard_error,p_value,confidence_interval_low,confidence_interval_high,confidence_set_unbounded,observations,date_clusters
+log1p_duration,2SLS,-0.2999062468413027,0.4958607339633511,0.5452989279081033,,,,33094,325
+log1p_duration,Anderson-Rubin,,,0.8422294288035255,-5.0,5.0,True,33094,325
+log1p_followups,2SLS,-0.02565525743001831,0.18534478262629528,0.8899092051323505,,,,33094,325
+log1p_followups,Anderson-Rubin,,,0.6583405043256407,-5.0,5.0,True,33094,325

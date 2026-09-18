@@ -1,0 +1,16 @@
+# Quality-gate configuration for Task 1: ruff (lint), mypy (types), pytest.
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.mypy]
+files = ["eda.py", "clean_orders.py", "estimate.py", "diagnostics.py", "paths.py", "run_all.py"]
+ignore_missing_imports = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

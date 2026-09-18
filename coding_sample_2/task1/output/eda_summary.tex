@@ -1,0 +1,33 @@
+\begin{table}[H]
+\centering
+\caption{Task 1: summary statistics for restaurant order lines.}
+\label{tab:t1summary}
+\begin{tabular}{lr}
+\toprule
+\multicolumn{2}{l}{\textit{Panel A: Sample structure and data quality}} \\
+\midrule
+Raw order lines & 34,752 \\
+Clean order lines & 34,676 \\
+Restaurants & 50 \\
+Unique dates & 57 \\
+Date range & 2022-10-03 to 2022-11-28 \\
+Restaurant-product pairs & 3,095 \\
+Restaurant-date pairs & 2,318 \\
+Rows missing product, price, or date & 76 \\
+Zero-quantity rows & 52 \\
+Restaurants with no repricing & 27 \\
+\bottomrule
+\end{tabular}
+\vspace{0.5em}
+\small
+\begin{tabular}{lrrrrrrrr}
+\toprule
+\multicolumn{9}{l}{\textit{Panel B: Variable summary statistics}} \\
+\midrule
+Variable & $N$ & Mean & SD & Min & P25 & Median & P75 & Max \\
+\midrule
+Unit price & 34,747 & 7.34 & 4.87 & 0.20 & 4.00 & 6.50 & 9.50 & 70.00 \\
+Quantity & 34,747 & 1.15 & 0.52 & 0.00 & 1.00 & 1.00 & 1.00 & 10.00 \\
+\bottomrule
+\end{tabular}
+\end{table}

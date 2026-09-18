@@ -1,0 +1,4 @@
+Stories loaded: 37327
+Stories matched to rainfall: 37327
+Stories in analysis sample: 33094
+Stories dropped because power data are missing: 4233

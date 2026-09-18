@@ -1,0 +1,13 @@
+Panel,Statistic,Value,N,Mean,SD,Min,P25,Median,P75,Max
+Sample,Raw order lines,"34,752",,,,,,,,
+Sample,Clean order lines,"34,676",,,,,,,,
+Sample,Restaurants,50,,,,,,,,
+Sample,Unique dates,57,,,,,,,,
+Sample,Date range,2022-10-03 to 2022-11-28,,,,,,,,
+Sample,Restaurant-product pairs,"3,095",,,,,,,,
+Sample,Restaurant-date pairs,"2,318",,,,,,,,
+Sample,"Rows missing product, price, or date",76,,,,,,,,
+Sample,Zero-quantity rows,52,,,,,,,,
+Sample,Restaurants with no repricing,27,,,,,,,,
+Variables,Unit price,,34747.0,7.342038449362535,4.867316619982833,0.2,4.0,6.5,9.5,70.0
+Variables,Quantity,,34747.0,1.1456240826546176,0.5197183124771575,0.0,1.0,1.0,1.0,10.0

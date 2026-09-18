@@ -1,0 +1,25 @@
+Rows dropped for missing key fields: 76 of 34752
+  missing product_name: 20
+  missing product_unit_price: 5
+  missing date: 56
+Dropped rows by restaurant (top 5):
+  restaurant 4: 13
+  restaurant 36: 10
+  restaurant 49: 7
+  restaurant 46: 7
+  restaurant 17: 6
+Restaurants affected: 19 of 50
+Name-variant groups merged by product_key: 11
+  restaurant 2: ['Pizza New York', 'Pizza new york']
+  restaurant 2: ['Pizza Verona', 'Pizza verona']
+  restaurant 36: ['Classic Mix', 'Classic mix']
+  restaurant 36: ['Ensalada De Algas', 'Ensalada de Algas']
+  restaurant 36: ['Mi-Cuit De Chocolate', 'Mi-cuit de chocolate']
+  restaurant 36: ['Mousse De Chocolate', 'Mousse de chocolate']
+  restaurant 38: ['ARROZ AL HORNO', 'Arroz al Horno']
+  restaurant 38: ['BACALAO AL HORNO', 'Bacalao al horno']
+  restaurant 38: ['CACHOPO DE  TERNERA', 'Cachopo de Ternera']
+  restaurant 38: ['CROQUETA DE  CHORIZO', 'Croqueta de Chorizo']
+  restaurant 38: ['TORREZNO DE SORIA', 'Torrezno de Soria']
+Zero-quantity rows kept (flagged): 52
+Clean rows written: 34676
