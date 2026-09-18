@@ -1,0 +1,8 @@
+I'm doing Mendelian randomization with rs11174281 as an instrument for lifetime cannabis use (LCU), identified in a within-family GWAS. Please use AlphaGenome to:
+1. Look up rs11174281's chromosome, position, and alleles (build GRCh38 if possible — confirm which build you're using)
+2. Run variant effect prediction for both alleles across all available modalities
+3. For RNA-seq specifically, rank tissues by predicted effect magnitude — I'm especially interested in brain tissues (cortex, hippocampus, striatum, etc.) since LCU is a neurobehavioral trait
+4. Identify which gene(s) within the prediction window show the largest expression changes, and report direction (up or down) for the LCU-risk allele
+5. Check whether the variant overlaps a predicted regulatory element (DNase peak, enhancer mark) in brain tissues
+6. Save plots of the regulatory landscape around the variant
+7. Summarize: what is AlphaGenome's best guess about the gene and mechanism through which this variant exerts its effect?

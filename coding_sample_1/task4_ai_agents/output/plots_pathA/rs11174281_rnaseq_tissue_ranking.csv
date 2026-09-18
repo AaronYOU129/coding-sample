@@ -1,0 +1,21 @@
+gene_name,label,gtex_tissue,brain,raw_score,quantile_score
+LRRK2,CD14-positive monocyte,,False,1.9831793,0.9782654
+LRRK2,CD14-positive monocyte,,False,1.7022595,0.95041513
+LRRK2-DT,CD14-positive monocyte,,False,1.5327212,0.94588065
+ABCD2,Purkinje cell,,False,1.326044,0.97621405
+LRRK2-DT,CD14-positive monocyte,,False,0.9889985,0.9409573
+LRRK2,lower lobe of right lung,,False,0.9863659,0.95357716
+KIF21A,cardiac muscle cell,,False,0.9552086,0.9150109
+LRRK2,upper lobe of right lung,,False,0.8375911,0.9422262
+LRRK2,lower lobe of left lung,,False,0.83539927,0.93561655
+LRRK2,left lung,,False,0.8173192,0.93561655
+KIF21A,occipital lobe,,False,0.7178534,0.98266596
+LRRK2,spleen,,False,0.7136503,0.9055997
+KIF21A,neural cell,,False,0.7031829,0.8815574
+KIF21A,HT-29,,False,0.6383278,0.85810196
+KIF21A,diencephalon,,False,0.63801837,0.96195054
+SLC2A13,Purkinje cell,,False,0.6288219,0.95933455
+LRRK2,B cell,,False,0.6168608,0.83089256
+KIF21A,frontal cortex,,True,0.6114028,0.9715297
+LRRK2,kidney,,False,0.6087655,0.8815574
+SLC2A13,SK-MEL-5,,False,0.6030942,0.8974094

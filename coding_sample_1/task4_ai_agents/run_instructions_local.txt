@@ -1,0 +1,24 @@
+ENVIRONMENT NOTES (for you, the analyst agent — follow these, then answer the user task below):
+- You have the locally-generated `alphagenome_local` MCP server (built by Paper2Agent from the google-deepmind/alphagenome repo). Use its tools (prefixed `alphagenome_`).
+- Your AlphaGenome API key is in the ALPHAGENOME_API_KEY environment variable (already passed to the MCP server). For any tool that accepts an `api_key` argument, pass the value of $ALPHAGENOME_API_KEY. NEVER print the key.
+- AlphaGenome tools take genomic COORDINATES, not rsIDs. First resolve rs11174281 to GRCh38 chr/pos/ref/alt using the Ensembl REST API:
+    curl -s 'https://rest.ensembl.org/variation/human/rs11174281?content-type=application/json'
+  Confirm and state the build. Cross-check alleles with NCBI dbSNP if anything is ambiguous.
+- These MCP tools run LOCALLY and save their output files (plots, CSVs) to disk. Tell each visualization/scoring tool to write into this absolute directory by setting its `out_prefix` to a path under:
+    /Users/youzhiwei/Downloads/nyu_data_task/task4_ai_agents/output/plots_pathA/
+  (e.g. out_prefix=".../plots_pathA/rs11174281_variant_effects"). Use a distinct out_prefix per call so files don't collide. After each tool call, confirm the file exists.
+- For brain-tissue focus (item 3 & 5), request appropriate ontology terms for cortex, hippocampus, caudate/striatum, etc. If a tool lets you explore metadata/ontologies, do that first so you request real tissue tracks rather than guessing.
+- Do not fabricate any number. Every value must come from an actual tool call. If a tool fails, report the error verbatim and continue with the other items.
+- When finished, write your COMPLETE answer as a well-structured markdown report to:
+    /Users/youzhiwei/Downloads/nyu_data_task/task4_ai_agents/output/pathA_local_response.md
+  with one section per numbered item (1-7), a final "Summary" section for item 7, and a closing list of every plot/data file saved under output/plots_pathA/.
+
+USER TASK:
+I'm doing Mendelian randomization with rs11174281 as an instrument for lifetime cannabis use (LCU), identified in a within-family GWAS. Please use AlphaGenome to:
+1. Look up rs11174281's chromosome, position, and alleles (build GRCh38 if possible — confirm which build you're using)
+2. Run variant effect prediction for both alleles across all available modalities
+3. For RNA-seq specifically, rank tissues by predicted effect magnitude — I'm especially interested in brain tissues (cortex, hippocampus, striatum, etc.) since LCU is a neurobehavioral trait
+4. Identify which gene(s) within the prediction window show the largest expression changes, and report direction (up or down) for the LCU-risk allele
+5. Check whether the variant overlaps a predicted regulatory element (DNase peak, enhancer mark) in brain tissues
+6. Save plots of the regulatory landscape around the variant
+7. Summarize: what is AlphaGenome's best guess about the gene and mechanism through which this variant exerts its effect?

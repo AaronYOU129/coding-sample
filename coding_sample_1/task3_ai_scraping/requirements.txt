@@ -1,0 +1,3 @@
+# Only dependency: the official Anthropic Python SDK.
+# Floor chosen so claude-opus-4-8 / claude-haiku-4-5 and usage.model_dump() are available.
+anthropic>=0.69

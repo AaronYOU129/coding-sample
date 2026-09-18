@@ -1,0 +1,31 @@
+gene_name,label,gtex_tissue,raw_score,quantile_score
+KIF21A,cerebellar hemisphere,Brain_Cerebellar_Hemisphere,0.0060272217,0.9799247
+LINC02555,amygdala,Brain_Amygdala,-0.0057172775,-0.9780051
+KIF21A,cerebellum,Brain_Cerebellum,0.005635977,0.9759043
+LINC02555,caudate nucleus,Brain_Caudate_basal_ganglia,-0.0056061745,-0.97697836
+LINC02555,hypothalamus,Brain_Hypothalamus,-0.005578518,-0.97697836
+LINC02555,anterior cingulate cortex,Brain_Anterior_cingulate_cortex_BA24,-0.005542755,-0.97697836
+LINC02555,frontal cortex,Brain_Cortex,-0.0054130554,-0.9759043
+LINC02555,dorsolateral prefrontal cortex,Brain_Frontal_Cortex_BA9,-0.0053224564,-0.97360545
+LINC02555,putamen,Brain_Putamen_basal_ganglia,-0.005273819,-0.97174054
+LINC02555,substantia nigra,Brain_Substantia_nigra,-0.0052223206,-0.97174054
+LINC02555,Ammon's horn,Brain_Hippocampus,-0.005126953,-0.9697459
+LINC02555,nucleus accumbens,Brain_Nucleus_accumbens_basal_ganglia,-0.0050268173,-0.96833974
+LINC02555,C1 segment of cervical spinal cord,Brain_Spinal_cord_cervical_c-1,-0.004995823,-0.96686935
+LINC02471,dorsolateral prefrontal cortex,,-0.0049648285,-0.9840279
+ENSG00000199571,renal cortex interstitium,,-0.0049095154,-0.97237617
+LRRK2-DT,brain,,-0.004818201,-0.96289337
+LRRK2-DT,C1 segment of cervical spinal cord,Brain_Spinal_cord_cervical_c-1,-0.0047204494,-0.961175
+LRRK2-DT,caudate nucleus,Brain_Caudate_basal_ganglia,-0.0046122074,-0.9593788
+LRRK2-DT,hypothalamus,Brain_Hypothalamus,-0.004517317,-0.9575012
+ENSG00000286576,brain,,0.0045080185,0.96204376
+LINC02471,frontal cortex,,-0.004445076,-0.9824973
+ENSG00000286576,cerebellum,,0.004410267,0.9645371
+LRRK2-DT,substantia nigra,Brain_Substantia_nigra,-0.0043981075,-0.95348793
+LRRK2-DT,cerebellar hemisphere,Brain_Cerebellar_Hemisphere,-0.0043976307,-0.94910556
+LINC02555,cerebellar hemisphere,Brain_Cerebellar_Hemisphere,-0.004351139,-0.9479486
+LRRK2-DT,cerebellum,,-0.0043246746,-0.94910556
+LINC02555,spinal cord,,-0.004319668,-0.96289337
+LRRK2-DT,Ammon's horn,Brain_Hippocampus,-0.0042374134,-0.9479486
+LRRK2-DT,anterior cingulate cortex,Brain_Anterior_cingulate_cortex_BA24,-0.004193306,-0.94910556
+LINC02471,spinal cord,,-0.004190922,-0.9808213

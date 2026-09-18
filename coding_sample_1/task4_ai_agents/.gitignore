@@ -1,0 +1,5 @@
+.env
+Paper2Agent/
+AlphaGenome_Agent/
+*-env/
+__pycache__/

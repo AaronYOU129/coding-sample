@@ -1,0 +1,21 @@
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+.claude/
+.DS_Store
+.Rhistory
+
+# Environments, caches, and execution logs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*-env/
+node_modules/
+*.log
+~$*
+
+# External framework checkouts
+Paper2Agent/
+AlphaGenome_Agent/

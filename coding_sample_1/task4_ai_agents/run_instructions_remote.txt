@@ -1,0 +1,21 @@
+ENVIRONMENT NOTES (for you, the analyst agent — follow these, then answer the user task below):
+- Your AlphaGenome API key is in the ALPHAGENOME_API_KEY environment variable. Pass it as the `api_key` argument to every alphagenome MCP tool that accepts one. NEVER print the key.
+- AlphaGenome tools take genomic COORDINATES, not rsIDs. First resolve rs11174281 to GRCh38 chr/pos/ref/alt using the Ensembl REST API:
+    curl -s 'https://rest.ensembl.org/variation/human/rs11174281?content-type=application/json'
+  (GRCh38 is Ensembl's default assembly.) Confirm and state the build you use. Cross-check alleles with NCBI dbSNP if anything is ambiguous.
+- The alphagenome MCP is a REMOTE server. Any plot/file a tool generates lives on the server. Download EVERY plot you create into ./output/plots/ with:
+    wget -P ./output/plots https://Paper2Agent-alphagenome-mcp.hf.space/outputs/<output_filename>
+  Use a distinct out_prefix per tool call so filenames don't collide.
+- For brain-tissue focus (item 3 & 5), use appropriate ontology terms for cortex, hippocampus, caudate/striatum, etc. Use explore_output_metadata first to find the exact ontology CURIEs/tissue names AlphaGenome supports, so you request real tissues rather than guessing.
+- Do not fabricate any number. Every value must come from an actual tool call. If a tool fails, report the error verbatim and continue with the other items.
+- When finished, write your COMPLETE answer as a well-structured markdown report to ./output/pathB_remote_response.md, with one section per numbered item (1–7), a final "Summary" section for item 7, and a closing list of every plot file saved under ./output/plots/.
+
+USER TASK:
+I'm doing Mendelian randomization with rs11174281 as an instrument for lifetime cannabis use (LCU), identified in a within-family GWAS. Please use AlphaGenome to:
+1. Look up rs11174281's chromosome, position, and alleles (build GRCh38 if possible — confirm which build you're using)
+2. Run variant effect prediction for both alleles across all available modalities
+3. For RNA-seq specifically, rank tissues by predicted effect magnitude — I'm especially interested in brain tissues (cortex, hippocampus, striatum, etc.) since LCU is a neurobehavioral trait
+4. Identify which gene(s) within the prediction window show the largest expression changes, and report direction (up or down) for the LCU-risk allele
+5. Check whether the variant overlaps a predicted regulatory element (DNase peak, enhancer mark) in brain tissues
+6. Save plots of the regulatory landscape around the variant
+7. Summarize: what is AlphaGenome's best guess about the gene and mechanism through which this variant exerts its effect?
