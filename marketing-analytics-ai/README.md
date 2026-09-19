@@ -1,4 +1,4 @@
-# AI Tools & Web Data Collection
+# Marketing Analytics & AI
 
 Research task implementations and supporting materials.
 
