@@ -1,0 +1,10 @@
+**/data/*
+!**/data/README.md
+.env
+.env.*
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+.ipynb_checkpoints/

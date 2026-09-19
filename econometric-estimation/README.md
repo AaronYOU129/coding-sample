@@ -1,4 +1,4 @@
-# Coding Sample 2 — Econometric Analysis
+# Econometric Estimation & Diagnostics
 
 Python solutions to the three-part predoc evaluation. Each task has an
 independent pipeline, tests, intermediate files, final outputs, and figures.

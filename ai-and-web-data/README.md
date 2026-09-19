@@ -1,4 +1,4 @@
-# Coding Sample 1
+# AI Tools & Web Data Collection
 
 Research task implementations and supporting materials.
 

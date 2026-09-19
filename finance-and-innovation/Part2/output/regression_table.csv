@@ -1,0 +1,19 @@
+Variable,(1) Main,(2) Mechanism
+Novelty,0.0771,0.0329
+,(0.0739),(0.2612)
+Tech Uncertainty (CV),,-0.7505***
+,,(0.2022)
+Novelty x Uncertainty,,0.0116
+,,(0.1279)
+Num Claims,0.0869***,0.0834***
+,(0.0058),(0.0054)
+ln(Backward Cites + 1),0.3459***,0.3350***
+,(0.0253),(0.0254)
+Constant,0.4637**,1.6637***
+,(0.1850),(0.3951)
+R-squared,0.1010,0.1308
+Adj R-squared,0.1009,0.1308
+N,"194,937","194,937"
+Year FE,Yes,Yes
+CPC Section FE,Yes,Yes
+Cluster SE,CPC subclass,CPC subclass

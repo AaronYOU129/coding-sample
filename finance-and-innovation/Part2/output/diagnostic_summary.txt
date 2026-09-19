@@ -1,0 +1,20 @@
+Diagnostic Summary
+======================================================================
+Patent-level regression sample: 194,937
+Valid CPC subclass-year cells:  680
+
+1. Novelty construction
+   Corr(bsim5, novelty) = -1.0000
+   Expected: negative, because novelty is constructed as negative backward similarity.
+
+2. CV components
+   Corr(CV, mean patent value) = -0.2001
+   Corr(CV, SD patent value)   = 0.3458
+   If Corr(CV, mean) is strongly negative, CV may be mechanically driven by small means.
+   If Corr(CV, SD) is weak, CV may not cleanly capture dispersion.
+
+3. Negative first-stage diagnosis
+   Corr(mean novelty, CV)         = -0.2217
+   Corr(mean novelty, mean value) = 0.1076
+   Corr(mean novelty, SD value)   = -0.0249
+   These correlations help explain why novelty may not predict higher uncertainty.

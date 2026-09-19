@@ -1,4 +1,4 @@
-# Coding Sample 3 — Experimental Economics Replication
+# Experimental Replication & Inference
 
 Replication and inference exercises based on Cappelen, List, Samek, and
 Tungodden (2020), “The Effect of Early-Childhood Education on Social Preferences.”
